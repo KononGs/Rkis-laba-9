@@ -1,0 +1,20 @@
+print ('ИСИП 19-5 Баснаев Конон. Лаба №9')
+numbers = [7,1,2,21,100]
+num = map(lambda x:x%2==1, numbers)
+print(sorted(numbers))
+print()
+def func (x, a):
+    return x - a
+print(func(20, 10))
+print()
+users = [
+    'Mark Evans 18',
+    'Scarlett Young 40',
+    'Samuel L. Jackson 67',
+    'Tom Holland 23',
+    'Kit Harington 29',
+    'Morgan Freeman 79'
+    ]
+    
+users.sort(key = lambda x: x.split(' ')[-1])
+print(users)
